@@ -1,0 +1,59 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: -1px -3px 13px #000;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+.header-logo{
+    
+}
+.header-navigations{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style-type: none;
+    
+
+}
+
+.header-navigation{
+    line-height: 26px;
+    
+
+}
+
+.header-navigation-link{
+    color: black;
+    text-decoration: none; 
+    font-size: 18px;
+
+}
+
+.header-navigation:hover{
+    border-bottom: 1px solid black;
+}
+.body-heading{
+    margin-top: 100px;
+}
+
+.shopping-bag-icon{
+    width: 16px;
+    height: 16px;
+}
+
