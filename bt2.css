@@ -137,6 +137,21 @@ p {
     
 }
 
+.heart-cart-element{
+    position: relative;
+}
+
+.cart-quantity, .heart-quantity{
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    border-radius: 50%;
+    padding: 0px 5px;
+    background-color: var(--green-color);
+    font-size: 10px;
+    color: white;
+}
+
 .navigation-item{
     text-decoration: none;
     color: #252525;
@@ -145,6 +160,11 @@ p {
 
 .navigation-item:hover{
     color: #7fad39;
+}
+
+.navigation-page:hover .page-list{
+    display: block;
+
 }
 
 .navigation-item-middle{
@@ -165,9 +185,7 @@ p {
     display: none;
 }
 
-.navigation-item-middle:hover + .page-list {
-    display: block;
-}
+
 
 .navigation-item-middle:hover{
     color: #7fad39;
@@ -432,26 +450,17 @@ p {
     margin-top: 80px;
 }
 
-.triple-slide-title-container{
-    margin-top: 50px;
-}
-
 .triple-slide-title{
-    max-width: 67%;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    
+    margin-top: 80px;
 }
 
 .triple-slide-content{
-    justify-content: center;
     gap: 5px;
     align-items: center;
 }
 
 .triple-slide-content-name{
-    margin-right: 80px;
+    margin-right: 70px;
     font-weight: 1000;
     font-size: 25px;
 }
@@ -465,12 +474,7 @@ p {
 }
 
 .three-slide{
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    align-items: center;
-    padding-left: 60px;
+    margin-top: 50px;    
 }
 
 .three-slide-item{
@@ -497,15 +501,6 @@ p {
     background: #7fad39;
     content: "";
     margin: 0 auto;
-}
-
-.blog-bigger-container{
-    max-width: 75%;
-    margin: auto;
-}
-
-.blog-container{
-    gap: 20px;
 }
 
 .blog{
@@ -538,16 +533,10 @@ p {
 .footer-back-ground{
     background-color: #F3F6FA;
     margin-top: 100px;
-}
-
-.footer-container{
-    max-width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 30px;
 }
 
 .footer{
-   gap: 40px;
    margin-top: 50px;
 }
 
@@ -621,5 +610,17 @@ p {
     background-color: #7fad39;
     color: white;
     font-weight: 1000;
+}
+
+.homepage-footer-copyright-background{
+    background-color: #F3F6FA;
+    padding: 10px;
+}
+
+.homepage-footer-copyright{
+    background-color: #F3F6FA;
+    padding: 20px;
+    border-top: solid 1px;
+    border-color:#ebebeb;
 }
 

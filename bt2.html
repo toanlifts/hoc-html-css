@@ -59,16 +59,15 @@
                     <ul class="navigation-list d-flex">
                         <li><a href="#" class="navigation-item">HOME</a></li>
                         <li><a href="#" class="navigation-item">SHOP</a></li>
-                        <li>
-                            <a href="#" class="navigation-item-middle">PAGES</a>
-                            
-                                <ul class="page-list">
-                                    <li class="page-item">Shop Details</li>
-                                    <li class="page-item">Shoping Cart</li>
-                                    <li class="page-item">Check Out</li>
-                                    <li class="page-item">Blog Details</li>
-                                </ul>
-                            </li>
+                        <li class="navigation-page">
+                            <a href="https://www.google.com/" class="navigation-item-middle">PAGES</a>
+                            <ul class="page-list">
+                                <li class="page-item">Shop Details</li>
+                                <li class="page-item">Shoping Cart</li>
+                                <li class="page-item">Check Out</li>
+                                <li class="page-item">Blog Details</li>
+                            </ul>
+                        </li>
                         <li><a href="#" class="navigation-item">BLOG</a></li>
                         <li><a href="#" class="navigation-item">CONTACT</a></li>
                     </ul>
@@ -76,8 +75,14 @@
                 <div class="navigation-right">
                    <div class="heart-cart d-flex align-items-center">
                         <ul class="heart-cart-item d-flex">
-                            <li><i class="bi bi-heart-fill"></i></li>
-                            <li><i class="bi bi-basket3-fill"></i></li>
+                            <li class="heart-cart-element">
+                                <i style="font-size: 20px;" class="bi bi-heart-fill"></i>
+                                <div class="heart-quantity">1</div>
+                            </li>
+                            <li class="heart-cart-element">
+                                <i style="font-size: 20px;" class="bi bi-basket3-fill"></i>
+                                <div class="cart-quantity">3</div>
+                            </li>
                         </ul>
                         <div>item:$150.00</div>
                    </div> 
@@ -214,8 +219,8 @@
             <img class="col-6" src="https://preview.colorlib.com/theme/ogani/img/banner/banner-2.jpg.webp" alt="">
         </div>
     </div>
-    <div class="triple-slide-title-container">
-        <div class="triple-slide-title d-flex justify-content-center">
+    <div class="container">
+        <div class="row triple-slide-title">
             <div class="triple-slide-content d-flex col-4">
                 <div class="triple-slide-content-name">Latest Products</div>
                 <i  class="bi bi-chevron-left triple-slide-content-icon"></i>
@@ -233,98 +238,104 @@
             </div>
         </div>
     </div>
-    <div class="three-slide d-flex justify-content-center">
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+    <div class="container">
+        <div class="row three-slide d-flex justify-content-center">
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
-        </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
-            </div>
-        </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
-            </div>
-        </div>
-    </div>
-    <div class="three-slide d-flex justify-content-center">
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
-            </div>
-        </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
-            </div>
-        </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="three-slide d-flex justify-content-center">
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+    <div class="container">
+        <div class="row three-slide d-flex justify-content-center">
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
+            </div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
         </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+    </div>
+    <div class="container">
+        <div class="row three-slide d-flex justify-content-center">
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
-        </div>
-        <div class="three-slide-item d-flex align-items-center col-4">
-            <div class="three-slide-image">
-                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
-            </div>
-            <div class="three-slide-para">
-                <div class="three-slide-name">Crab Pool Security</div>
-            <div class="three-slide-price">$30.00</div>
+            <div class="three-slide-item d-flex align-items-center col-4">
+                <div class="three-slide-image">
+                    <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/lp-1.jpg.webp" alt="">
+                </div>
+                <div class="three-slide-para">
+                    <div class="three-slide-name">Crab Pool Security</div>
+                <div class="three-slide-price">$30.00</div>
+                </div>
             </div>
         </div>
     </div>
     <div class="from-the-blog">
         <div class="featured-title">From The Blog</div>
     </div>
-    <div class="blog-bigger-container">
-        <div class="blog-container d-flex justify-content-center ">
+    <div class="container">
+        <div class="row blog-container">
             <div class="blog col-4">
                 <div class="blog-smaller">
                     <div class="blog-img">
@@ -379,8 +390,8 @@
         </div>
     </div>
     <div class="footer-back-ground">
-        <div class="footer-container d-flex justify-content-center">
-            <div class="footer d-flex">
+        <div class="container">
+            <div class="row footer d-flex">
                 <div class="footer-right col-4">
                     <div>
                         <a href="#"><img src="https://preview.colorlib.com/theme/ogani/img/logo.png.webp" alt=""></a>
@@ -426,6 +437,16 @@
                     <div class="footer-right-item4">SUBSCRIBE</div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="homepage-footer-copyright-background">
+        <div class="container">
+            <div class="d-flex justify-content-between homepage-footer-copyright">
+                <div>
+                    Copyright ©2023 All rights reserved | This template is made with  by <a href="https://colorlib.com/">Colorlib</a>
+                </div>
+                <img src="https://preview.colorlib.com/theme/ogani/img/payment-item.png.webp" alt="">
             </div>
         </div>
     </div>
